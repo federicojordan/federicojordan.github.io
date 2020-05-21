@@ -115,6 +115,8 @@ requests.
 
 4\. Create the file `server.js` with the following content:
 
+{% gist a371d021941d6989cd623273ffcded93 %}
+
 5\. We execute `node server.js` in the terminal app and we should see our
 first server listening to 3000 port. We can change the listening port also
 using an environment variable `PORT` in our configuration file `.env`.
@@ -163,7 +165,9 @@ certain device_token.
 
 #### First endpoint: Hashtags query
 
-  1. We create a file `tweetRequestRouters.js` in the folder `api/routes` with the following content:
+1. We create a file `tweetRequestRouters.js` in the folder `api/routes` with the following content:
+
+{% gist 7fd4ee107dc135a4827df08f3519dcff %}
 
 This means that for the route `/tweetRequest` we're going to wait a `GET`
 request with a `tweetRequestId` parameter. From its side,
@@ -173,12 +177,16 @@ its function `getTweetRequest`.
 2\. Create a file `tweetRequestController.js` in the folder
 `api/controllers`with the following content:
 
+{% gist bb102d9351d29589dcc82ef3c9b052f9 %}
+
 In this case we export the `getTweetRequest` function so it can be used by
 `tweetRequestRouter.js`. We look for the object `tweetRequest` in the array
 that we create below and we retrieve it in JSON format.
 
 3\. Update our file `server.js` so it can manage the needed route and it
 retrieves a HTTP response.:
+
+{% gist f1923ec13ca4267317068bb4517984f5 %}
 
 In that way we configure the server so it can accept URL encoded and it manage
 JSON type responses. Also, we delegate the routing to `tweetRequestRoutes`.
@@ -202,13 +210,19 @@ endpoints.
 
 Our final code should be similar to the following:
 
+{% gist e44af6e869ba43ffbba4322d98bda3f1 %}
+
 In `server.js` we added other routing file for `PostedTweet` entity, it will
 indicate us if a tweet has been posted by an user.
+
+{% gist 19e7c39006c9561906aff91325f74a08 %}
 
 We add the possibility to create `TweetRequest with the POST `method and
 creating a function `createTweetRequest` in `tweetRequestController.js`. Also,
 we did the endpoint of deleting `TweetRequest` with the `DELETE` method, which
 the routing redirect to the function `deleteTweetRequest.`
+
+{% gist a588b01005a1e507af9b92e9478be2dc %}
 
 In `tweetRequestController.js`we add the following functions:
 
@@ -218,9 +232,13 @@ In `tweetRequestController.js`we add the following functions:
 We also added two files: `postedTweetRoutes.js` and
 `postedTweetController.js`:
 
+{% gist b80d932f592d608d3976537b0dd311e9 %}
+
 We create a POST method which will be associated to the `createdPostedTweet`
 function from `postedTweetController`.This will allow us to indicate which
 tweet has been posted by the user.
+
+{% gist 49a9c2490468cd0d107c1dea77824660 %}
 
 In the case of the controller the function `createPostedTweet` create the
 `PostedTweet` from the last `id` that it finds in the `postedTweets` array (it

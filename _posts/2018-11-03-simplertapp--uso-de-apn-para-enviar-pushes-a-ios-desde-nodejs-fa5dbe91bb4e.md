@@ -131,6 +131,9 @@ Podemos encontrar facilmente el nuestro, simplemente solicitando permisos de
 push notificaciones en nuestra app SimpleRTApp. Para ello, agregamos los
 siguientes metodos en nuestro `AppDelegate.swift` :
 
+<script src="https://gist.github.com/fedejordan/9eda97e5d7b895cdb239ada430f13cab.js"></script>
+
+
 A destacar:
 
   * Mediante el SDK de `UserNotifications`, hacemos `UNUserNotificationCenter.current().requestAuthorization()` para pedirle permisos al usuario.
@@ -157,6 +160,8 @@ envie push notifications:
   1. Vamos a la app de Terminal y hacemos `npm install apn`. Esto nos instalara la biblioteca encargada de manejar todos los temas relacionados con la conexion a APNs.
   2. Copiamos el archivo p12 (en mi caso se llama `simpleapprt-certificates.p12`) a la misma carpeta de nuestro script en Node.js
   3. Creamos el script con el siguiente contenido:
+  
+<script src="https://gist.github.com/fedejordan/89cb4fd33a57d18441469748255b1ec6.js"></script>
 
 Donde reemplazaremos `<device-token>` y `<p12-password>` por nuestro propio
 device token y la contraseña que habiamos puesto en el archivo p12
@@ -222,6 +227,8 @@ que son permitidas por las pushes (pueden ser mas de una).
 
 El codigo en la app iOS nos quedaria de la siguiente forma, para nuestro
 `AppDelegate.swift`:
+
+{% gist ac531f44360152bafb550aab0d885585 %}
 
 Hacemos `node send_push.js` en la terminal y comprobamos si se envia una push
 con una custom action:

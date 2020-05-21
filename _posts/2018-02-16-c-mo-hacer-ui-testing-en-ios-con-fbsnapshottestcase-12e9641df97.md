@@ -156,7 +156,7 @@ Para ello, fue necesario eliminar el Storyboard e instanciar el View
 Controller desde el AppDelegate. En el test usamos `let viewController =
 ViewController()`para instanciar la clase `ViewController`.
 
-ViewController refactorizado con SnapKit
+{% gist 1feebeb9a08bc909a863b5389264f98a %}
 
 Ahora vamos a probar si refactorizamos correctamente la vista con
 FBSnapshotTestCase, para ellos hacemos Cmd+U.
@@ -216,7 +216,7 @@ dispositivo al archivo de imagen.
 El script es publico y lo pueden ver a continuacion. Solamente tienen que
 cambiar el nombre del `workspace` y el `scheme`:
 
-Script para hacer snapshot a diferentes dispositivos
+{% gist fc8013096ed6313e8c6d137ed8331100 %}
 
 Genera como salida los screenshots de todos los dispositivos que se indiquen.
 Para ver si hubo algun error en alguna captura, basta con ver la salida que

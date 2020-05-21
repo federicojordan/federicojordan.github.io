@@ -124,6 +124,8 @@ be able to use it.
   1. We install the MySQL package doing `npm install mysql --save` through the terminal
   2. We create a script called `mysql_example.js` with the following content:
 
+{% gist 84afbac7832567cfce645b01c3c14fc3 %}
+
 At first, we load the library for the enviroment variables and we instantiate
 the required to work with MySQL.
 
@@ -187,6 +189,8 @@ To do that we're going to create a DB connection file called
 `databaseHelper.js` where we'll do the main connection with the database and
 the specified query thought a `sqlQuery` parameter.
 
+{% gist 9bcd68c9ac2dba552e8e1028230f3bd8 %}
+
 Note: For simplicity purposes, a connection to the database will be created
 for each request received. This is **NOT PERFORMANT** , since it should be
 handled through a pool of connections, but the topic will not be covered in
@@ -197,11 +201,15 @@ pooling.html).
 We continue with the creation of a `tweetRequestDatabase.js` file in the
 `api/database` folder with the following content:
 
+{% gist b26a3791730a9bbde0a9a0a0da691131 %}
+
 In that file we obtain the reference to `databaseHelper`, and with the
 parameters in `insertTweetRequest` function we create the SQL query and we run
 it.
 
 Finally, we change our `tweetRequestController.js` with the following:
+
+{% gist 12089b726b91c5d58ceb2a7b0f32f635 %}
 
 As we change what we had before, we obtain the reference to
 `tweetRequestDatabase` and we insert the object `tweetRequest` built in the
@@ -234,16 +242,24 @@ With that, our API is capable of insert values in the database ;)
 With the previous content, we can finish the other API endpoints. It should be
 something similar to the following:
 
+{% gist e6c1d67b6dea8ddb008bd42461c46bba %}
+
 In `tweetRequestDatabase.js` we add the functions to do the corresponding
 `SELECT` and`DELETE`, with a determined `tweetRequestId`. We add the
 `callback` to know when the write or read operation finished.
+
+{% gist f99f7dea98d3784a44ecf85d431cb973 %}
 
 In `tweetRequestController.js` we delete all the logic related with the memory
 array, and we use the `callback` that `tweetRequestDatabase` gives us to send
 a response with `200` status, ending it.
 
+{% gist 1127ab411c210cd7de2c22a6ee9fbb29 %}
+
 We add the properly `postedTweetDatabase.js` to send the `INSERT` with the
 `postedTweet` data to the database.
+
+{% gist e2cd81a58874093d8d9de6352a29b6bb %}
 
 Finally, we also update `postedTweetController.js` so we can use
 `postedTweetDatabase` and if everything went right send the `200` status code.

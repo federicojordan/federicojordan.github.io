@@ -120,7 +120,7 @@ have to do the following:
 
 Our code should look very similar to this:
 
-First snapshot test example
+{% gist e5ead555bf500cc4c89c0a5f05a4323e %}
 
 If we go to Finder to look into the folder `Tests/ReferenceImages` we will see
 the saved image of our View Controller for an iPhone 8:
@@ -152,7 +152,7 @@ To do that, it was neccesary to delete the storyboard file and instantiate the
 View Controller from the `AppDelegate`. In the test we use `let viewController
 = ViewController()` to instantiate the class `ViewController`.
 
-ViewController refactored with SnapKit
+{% gist 1feebeb9a08bc909a863b5389264f98a %}
 
 Now we are going to test if we did a good refactor with FBSnapshotTestCase. To
 do that we have to press Cmd+U.
@@ -188,7 +188,7 @@ Test again with Cmd+U, and the unit tests should be OK.
 
 ![](/img/1*fHolX8WVxYu-B04Y39QXQg.png)
 
-Refactor aprobado :)
+Refactor approved :)
 
 You can download the final refactor with SnapKit doing a `checkout` in
 `snapkit_refactor` branch, in the example git repository.
@@ -212,7 +212,7 @@ resolution in this case) is added to the file name.
 The script is public and you can see it below. You just have to change the
 `workspace` and `scheme` values:
 
-Script to do snapshot to different devices
+{% gist fc8013096ed6313e8c6d137ed8331100 %}
 
 It generates an output of all the screenshots of all the devices that are
 specified. To see if there was an error in any screenshot, we have to see the

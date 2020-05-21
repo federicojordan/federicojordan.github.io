@@ -155,6 +155,8 @@ servidor.
 Para ello, vamos a nuestro archivo `.env`, donde teniamos guardados los datos
 de la base de datos local y reemplazamos por los valores del servidor:
 
+{% gist c3345438643f6ea494dedc40d93e0b62 %}
+
 Basicamente, reemplazamos los valores de `DB_HOST`, `DB_USERNAME`,
 `DB_PASSWORD`, `DB_NAME` por los vistos anteriormente.
 
@@ -178,6 +180,8 @@ nuestra aplicacion. Es por eso que tenemos que crear un `Procfile`.
 ¿Que es un Procfile? Es el archivo de texto que tendra la informacion de que
 comando necesita ser ejecutado para iniciar nuestra aplicacion. Lo creamos de
 la siguiente forma:
+
+{% gist dad4bf1a354fa4cd7163dc6a40d16e2d %}
 
 Estamos definiendo un dyno llamado `web` que cuando se inicie ejecutara el
 comando `node server.js`. Bastante simple, solo una linea.

@@ -59,6 +59,8 @@ This generated PNG files with the screen resolution inside the filename.
 First we create a file called`create_snapshots_html.sh` inside the same folder
 where the .xcworkspace is, with the following content:
 
+{% gist 537a3a072fbd47c07a2b5d8ae0397c28 %}
+
 Save the file, and in the terminal app we run the following command:
 
 `sh create_snapshots_html.sh`
@@ -89,6 +91,8 @@ We're going to see step by step looking at the outpet that each one generates.
 
 Change the `create_snapshots_html.sh` by the following:
 
+{% gist d0bf094d3630884729568410aa5f79cc %}
+
   1. We create two variables `SNAPSHOTS_DIR` and`TEST_TARGET`with the images route and the test target name.
   2. Below, we add a comment pointing what we are going to do and we print a string telling what we are doing currently.
   3. Inside the variable`SNAPSHOT_SUBDIRECTORIES`we use the commands `find`, `sort`and `awk` to find, sort and filter the folders of each test file that we have (in our case, it would be just one:`SnapshotsHTMLExampleTests.SnapshotsHTMLExampleTests`)
@@ -109,6 +113,8 @@ the end of the for clause:
 
 To the previous code, we can add the following:
 
+{% gist b97604a0a5e6473a0a93b395f2c74c2a %}
+
   1. We print in console that we are creating the HTML file
   2. Create the file `snapshots_preview.html`
   3. We add the tag `<html>` and the `<body>`. We're going to close them later
@@ -128,6 +134,8 @@ If we run `sh create_snapshots_html.sh` in this moment we have:
 
 We can add below the following code (since Obtaining PNG files):
 
+{% gist 94945d3e88fcb0ff7300c136c019861b %}
+
   1. We print in the screen that we are going to iterate over the subdirectories obtained previously.
   2. Iterate over`subdirectories` array.
   3. We obtain the completePath for all the PNG files from a `SNAPSHOTS_DIR` and a `TEST_TARGET`. Print in screen the
@@ -145,6 +153,8 @@ Output with the obtained PNG files
 
 Let's replace since the first `for` until the last `done` with the following
 code:
+
+{% gist bc1b1b21f79b51588b64dd481ffe0c0d %}
 
   1. For each subdirectory found, we add a title with the `<h1>` tag, with the subdirectory name. This help us to group the PNGs in their different test groups (swift test files). Also, we set the section `<div>` style.
   2. Having found the complete filepath of each PNG, we add a `<div>` with a `<p>` with the filename, and `<img>` tag with the image filepath as source. We also add borders in the styles to split everything better.
@@ -173,6 +183,8 @@ the `open`command we open it in our predetermined browser.
 #### Results
 
 The complete script should be something like this:
+
+{% gist edf9c767f3beb43929ec7293ac16afcc %}
 
 As we can see, it's not necessary to be Bash or HTML experts, with less than
 50 lines we can generate a very useful HTML if we have snapshots integrated in

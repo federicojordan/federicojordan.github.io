@@ -195,6 +195,8 @@ la API de tweets.
 
 Creamos un `RetweetViewController` y agregamos el siguiente codigo:
 
+{% gist c1488c263561216e6763dd1c3b6021a0 %}
+
 Maquetamos una pantalla simple (que presentamos cuando el login fue exitoso)
 de este estilo:
 
@@ -221,6 +223,8 @@ especificacion](https://developer.twitter.com/en/docs/tweets/post-and-engage
 
 Para ello tenemos que construir una Tweet Request de forma manual. Cambiamos
 el siguiente codigo de `RetweetViewController` para usar la API:
+
+{% gist bb403fc281b75926d8cb988515de9188 %}
 
 Algo a destacar es que cambiamos la inicializacion de `TWRTAPIClient()` por
 `TWRTAPIClient.withCurrentUser()`, ya que necesitamos que el cliente sepa las

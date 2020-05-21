@@ -101,7 +101,7 @@ now I only have a `ItemsViewController` which is in charge of all the logic of
 that flow, the data and the presentation of that. Also, it prints a log when
 the user selects an item.
 
-ItemsViewController with view and data logic
+{% gist b8554027600bbf5f9a64dd623dae2344 %}
 
 ![](/img/1*1Dq-bIVc5p8z3t_jLXb5Sw.png)
 
@@ -126,7 +126,7 @@ The real problem is in these lines:
     
     let item = items[indexPath.row]
 
-Why is the problem here?
+What is the problem here?
 
 Because we are using the `UITableView` index to get the specific item in the
 array. We should abstract in some way that the view uses an`UITableView`.
@@ -134,15 +134,10 @@ array. We should abstract in some way that the view uses an`UITableView`.
 To avoid that, we'll **refactor** `ItemsViewController` and we'll move the
 model logic to another class called `ItemsInteractor`.
 
-ItemsViewController without data model logicItemsInteractor for abstract data
-logic
+{% gist bc73b4a65d0e58e87017e563155737e8 %}
+{% gist 9834e4c93d44671ec757eeef29ec2127 %}
 
- _The interactor concept has its origin in_[
-_VIPER_](https://www.objc.io/issues/13-architecture/viper/) _architecture. As
-it is said in the definition, an Interactor contains the business logic to
-manipulate model objects (Entities) to carry out a specific task. In this
-case, our_` _ItemsInteractor_` _is in charge of retrieving information about
-any_` _Item._`
+The interactor concept has its origin in [VIPER](https://www.objc.io/issues/13-architecture/viper/) architecture. As it is said in the definition, an Interactor contains the business logic to manipulate model objects (Entities) to carry out a specific task. In this case, our` ItemsInteractor` is in charge of retrieving information about any` Item.`
 
 You can get this code in <https://github.com/fedejordan/SRPExample>, in the
 branch `interactor_refactor`.
@@ -158,7 +153,7 @@ same information (we wouldn't change the public methods) and finally
 So, with that refactor, if we want to change just the layout of our app, we
 simply change `ItemsViewController` to use an`UICollectionView`:
 
-ItemsViewController with a UICollectionView
+{% gist 584acb600bc660a2cf220a79c4c7754d %}
 
 ![](/img/1*NexoB1dLm11FnxD04W3l6Q.png)
 
