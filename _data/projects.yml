@@ -1,19 +1,22 @@
 - name: Apps
   items:
   - name: "Resumen: 48 Leyes del Poder"
-    link_ios: https://apps.apple.com/ve/app/resumen-48-leyes-del-poder/id1235394069
+    link: https://apps.apple.com/ve/app/resumen-48-leyes-del-poder/id1235394069
 
   - name: "Gravity Pod: A space oddisey"
-    link_ios: https://apps.apple.com/ve/app/gravity-pod-a-space-oddisey/id1228007097
+    link: https://apps.apple.com/ve/app/gravity-pod-a-space-oddisey/id1228007097
 
   - name: "Paint the wall"
-    link_ios: https://apps.apple.com/ve/app/paint-the-wall/id1329897127
+    link: https://apps.apple.com/ve/app/paint-the-wall/id1329897127
 
   - name: "Canciones Argentinas - Karaoke"
-    link_ios: https://apps.apple.com/ve/app/canciones-argentinas-karaoke/id1239273426
+    link: https://apps.apple.com/ve/app/canciones-argentinas-karaoke/id1239273426
 
   - name: "Letters War - Sopa de letras"
-    link_ios: https://apps.apple.com/ve/app/letters-war-sopa-de-letras/id1299490277
+    link: https://apps.apple.com/ve/app/letters-war-sopa-de-letras/id1299490277
+
+  - name: "Test Fractals"
+    link: https://play.google.com/store/apps/details?id=com.todoapps.testfractals
 
 - name: Bots
   items:
