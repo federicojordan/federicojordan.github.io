@@ -193,8 +193,7 @@ bit.
 
 We create a `RetweetViewController` and add the following code:
 
-{% gist c1488c263561216e6763dd1c3b6021a0 %}
-
+<script src="https://gist.github.com/fedejordan/c1488c263561216e6763dd1c3b6021a0.js"></script>
 We design a simple screen (which we presented when the login was successful)
 of this style:
 
@@ -221,8 +220,7 @@ specification](https://developer.twitter.com/en/docs/tweets/post-and-engage
 For this we have to build a Tweet Request manually. We changed the following
 `RetweetViewController` code to use the API:
 
-{% gist bb403fc281b75926d8cb988515de9188 %}
-
+<script src="https://gist.github.com/fedejordan/bb403fc281b75926d8cb988515de9188.js"></script>
 Something to note is that we changed the initialization of `TWRTAPIClient()`
 by `TWRTAPIClient.withCurrentUser()`, since we need the client to know the
 user's credentials.

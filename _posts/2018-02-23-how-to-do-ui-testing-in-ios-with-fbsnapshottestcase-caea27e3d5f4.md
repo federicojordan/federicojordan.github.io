@@ -120,8 +120,7 @@ have to do the following:
 
 Our code should look very similar to this:
 
-{% gist e5ead555bf500cc4c89c0a5f05a4323e %}
-
+<script src="https://gist.github.com/fedejordan/e5ead555bf500cc4c89c0a5f05a4323e.js"></script>
 If we go to Finder to look into the folder `Tests/ReferenceImages` we will see
 the saved image of our View Controller for an iPhone 8:
 
@@ -152,8 +151,7 @@ To do that, it was neccesary to delete the storyboard file and instantiate the
 View Controller from the `AppDelegate`. In the test we use `let viewController
 = ViewController()` to instantiate the class `ViewController`.
 
-{% gist 1feebeb9a08bc909a863b5389264f98a %}
-
+<script src="https://gist.github.com/fedejordan/1feebeb9a08bc909a863b5389264f98a.js"></script>
 Now we are going to test if we did a good refactor with FBSnapshotTestCase. To
 do that we have to press Cmd+U.
 
@@ -212,8 +210,7 @@ resolution in this case) is added to the file name.
 The script is public and you can see it below. You just have to change the
 `workspace` and `scheme` values:
 
-{% gist fc8013096ed6313e8c6d137ed8331100 %}
-
+<script src="https://gist.github.com/fedejordan/fc8013096ed6313e8c6d137ed8331100.js"></script>
 It generates an output of all the screenshots of all the devices that are
 specified. To see if there was an error in any screenshot, we have to see the
 output that it generates.

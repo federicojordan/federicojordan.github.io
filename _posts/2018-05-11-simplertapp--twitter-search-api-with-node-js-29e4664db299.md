@@ -200,8 +200,7 @@ the values for our app in Twitter.
 4\. We create a JavaScript file called `relevant_tweets.js` with the following
 content:
 
-{% gist c35d91dcb99c84f2cc6f5b6fafc215ac %}
-
+<script src="https://gist.github.com/fedejordan/c35d91dcb99c84f2cc6f5b6fafc215ac.js"></script>
 In this script we do the following:
 
   * Instance a Twitter client and indicate the saved variables in `.env`

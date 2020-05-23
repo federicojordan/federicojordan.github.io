@@ -58,8 +58,7 @@ Esto genero archivos PNG con la resolucion dentro del filename.
 Primero creamos un archivo llamado `create_snapshots_html.sh` dentro de la
 misma carpeta donde se encuentra el .xcworkspace, con el siguiente contenido:
 
-{% gist 537a3a072fbd47c07a2b5d8ae0397c28 %}
-
+<script src="https://gist.github.com/fedejordan/537a3a072fbd47c07a2b5d8ae0397c28.js"></script>
 Guardamos, y en la aplicacion de la terminal ejecutamos el siguiente comando:
 
 `sh create_snapshots_html.sh`
@@ -92,8 +91,7 @@ Vamos a ver paso a paso viendo la salida que genera cada uno.
 
 Cambiamos el contenido de `create_snapshots_html.sh` por el siguiente:
 
-{% gist d0bf094d3630884729568410aa5f79cc %}
-
+<script src="https://gist.github.com/fedejordan/d0bf094d3630884729568410aa5f79cc.js"></script>
   1. Creamos dos variables `SNAPSHOTS_DIR` y `TEST_TARGET` con la ruta de las imagenes y el nombre del test target respectivamente.
   2. Abajo, agregamos un comentario indicando que es lo que vamos a hacer e imprimimos un texto indicando lo que se esta haciendo.
   3. En la variable `SNAPSHOT_SUBDIRECTORIES` usamos los comandos `find`, `sort` y `awk` para buscar, ordenar y filtrar las carpetas de cada archivo de test que tengamos (en nuestro caso, seria una sola: `SnapshotsHTMLExampleTests.SnapshotsHTMLExampleTests`)
@@ -114,8 +112,7 @@ final del for:
 
 A lo anterior, le agregamos lo siguiente:
 
-{% gist b97604a0a5e6473a0a93b395f2c74c2a %}
-
+<script src="https://gist.github.com/fedejordan/b97604a0a5e6473a0a93b395f2c74c2a.js"></script>
   1. Imprimimos en consola que estamos creando el archivo HTML
   2. Creamos el archivo `snapshots_preview.html`
   3. Le agregamos el tag `<html>` y el `<body>`. Lo vamos a cerrar mas adelante
@@ -135,8 +132,7 @@ Si ejecutamos `sh create_snapshots_html.sh` en este momento obtenemos:
 
 Agregamos mas abajo el siguiente codigo (desde Obtaining PNG files):
 
-{% gist 94945d3e88fcb0ff7300c136c019861b %}
-
+<script src="https://gist.github.com/fedejordan/94945d3e88fcb0ff7300c136c019861b.js"></script>
   1. Imprimimos en pantalla que vamos a iterar sobre los subdirectorios obtenidos anteriormente
   2. Iteramos sobre el array `subdirectories`
   3. Obtenemos el completePath para todos los archivos PNG dados un `SNAPSHOTS_DIR` y un `TEST_TARGET`. Imprimos en pantalla el resultado
@@ -155,8 +151,7 @@ Salida con los archivos PNG obtenidos
 Reemplazamos desde el primer `for` hasta el ultimo `done` con el siguiente
 codigo:
 
-{% gist bc1b1b21f79b51588b64dd481ffe0c0d %}
-
+<script src="https://gist.github.com/fedejordan/bc1b1b21f79b51588b64dd481ffe0c0d.js"></script>
   1. Por cada subdirectorio encontrado, agregamos un titulo con el tag `<h1>` con el nombre del subdirectorio. Esto nos sirve para agrupar los PNG en sus diferentes grupos de tests (archivos swift de test). Ademas seteamos el estilo del `<div>` de seccion.
   2. Habiendo encontrado el filepath completo de cada PNG, agregamos un `<div>` con un `<p>` con el filename y un `<img>` con source el filepath de la imagen. Agregamos bordes en los estilos para separar un poco mas prolijo todo.
   3. Cerramos el tag de seccion.
@@ -185,8 +180,7 @@ Imprimimos en pantalla que vamos a abrir el archivo y mediante el comando
 
 El script completo quedaria de la siguiente forma:
 
-{% gist edf9c767f3beb43929ec7293ac16afcc %}
-
+<script src="https://gist.github.com/fedejordan/edf9c767f3beb43929ec7293ac16afcc.js"></script>
 Como vemos, no es necesario ser expertos en Bash ni en HTML, con menos de 50
 lineas podemos generar un HTML bastante util si tenemos integrados snapshots
 en nuestro proyecto.

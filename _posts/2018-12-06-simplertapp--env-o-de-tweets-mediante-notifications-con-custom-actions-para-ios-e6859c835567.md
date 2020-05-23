@@ -46,8 +46,7 @@ encuentre los tweets y se los envie a los usuarios.
 Vamos a crear, entonces un archivo llamado `send_tweets.js` con el siguiente
 contenido:
 
-{% gist 82faec0c664e54e2508e674387a3d991 %}
-
+<script src="https://gist.github.com/fedejordan/82faec0c664e54e2508e674387a3d991.js"></script>
 Lo que en terminal haciendo `node send_tweets.js` nos produce el siguiente
 resultado:
 
@@ -71,12 +70,10 @@ tengo un solo registro en la base de datos.
 Bueno, llego el momento de usarlo. Abrimos `relevant_tweets.js` y cambiamos su
 contenido para que sea accesible desde otro archivo:
 
-{% gist 0d3b899487d740e6657093e3583ac201 %}
-
+<script src="https://gist.github.com/fedejordan/0d3b899487d740e6657093e3583ac201.js"></script>
 Con esto, podemos acceder a estas funcionalidades desde `send_tweets.js`:
 
-{% gist 90298781bae66ae79a1f3d4defa6bacb %}
-
+<script src="https://gist.github.com/fedejordan/90298781bae66ae79a1f3d4defa6bacb.js"></script>
 Con lo que en consola tenemos:
 
     
@@ -100,8 +97,7 @@ Por ultimo, por lo menos del lado del server, tenemos que enviar esta
 informacion por una push notification. De una forma parecida que hicimos con
 el helper de tweets, lo hacemos con nuestro script `send_push.js`:
 
-{% gist 2fd333858c19b1d866948db8c86c8f4d %}
-
+<script src="https://gist.github.com/fedejordan/2fd333858c19b1d866948db8c86c8f4d.js"></script>
 Exportamos una funcion `sendPush` la cual acepta el `deviceToken`, un
 `tweetText` y un `tweetId`.
 
@@ -111,8 +107,7 @@ necesitaremos en la app para poder retuitearlo.
 Agregamos la funcionalidad de enviar push notifications a nuestro script
 `send_tweets.js` y nos quedaria de la siguiente forma:
 
-{% gist 88b6528684d70c26d3ed63ebe25ee0d9 %}
-
+<script src="https://gist.github.com/fedejordan/88b6528684d70c26d3ed63ebe25ee0d9.js"></script>
 Enprolijamos un poco los callbacks, y usamos el `notificationsHelper` (que usa
 las funcionalidades de `send_push.js.`
 
@@ -130,8 +125,7 @@ app. Para ello, creamos una clase llamada `PushNotificationsActionsHandler`
 que se encargara de manejar la logica relacionada a las acciones de las
 pushes:
 
-{% gist 8b6ae3e0687b7576a64467a367beeb6b %}
-
+<script src="https://gist.github.com/fedejordan/8b6ae3e0687b7576a64467a367beeb6b.js"></script>
 Basicamente se inicializa con un objeto de tipo `UIWindow`, para tener acceso
 a la navegacion de la app. Despues se implementa
 `UNUserNotificationCenterDelegate` para saber cuando el usuario hizo tap en
@@ -143,13 +137,11 @@ Para poder usar esta clase, necesitamos instanciarla en el `AppDelegate`.
 Creamos una variable de tipo `PushNotificationsActionsHandler`y agregamos
 entonces las siguientes lineas en el metodo `didFinishLaunching`:
 
-{% gist b29770139251ec2a56adde01431e1b5a %}
-
+<script src="https://gist.github.com/fedejordan/b29770139251ec2a56adde01431e1b5a.js"></script>
 Por ultimo, cambiamos un poco `RetweetViewController` para que acepte la nueva
 logica de hacer retweet cuando se carga:
 
-{% gist a21d2937c88bdf30236c727ef07b3ecd %}
-
+<script src="https://gist.github.com/fedejordan/a21d2937c88bdf30236c727ef07b3ecd.js"></script>
 Compilamos la app para tenerla actualizada en el dispositivo. Es importante
 estar logueado en ella con twitter para que funcione correctamente.
 

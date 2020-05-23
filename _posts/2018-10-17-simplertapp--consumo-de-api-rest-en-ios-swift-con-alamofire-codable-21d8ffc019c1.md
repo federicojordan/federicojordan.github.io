@@ -59,8 +59,7 @@ has-blocked-a-cleartext-http)
   1. Instalamos Alamofire agregando en nuestro Podfile `pod 'Alamofire', '~> 4.7'`, luego procedemos a hacer `pod install` en la terminal.
   2. Abrimos el workspace y creamos un archivo llamado `TweetRequest.swift` con el siguiente contenido:
   
-  {% gist cdc4b5d4339252b523de285209109b91 %}
-
+<script src="https://gist.github.com/fedejordan/cdc4b5d4339252b523de285209109b91.js"></script>
 Este sera el objeto que obtendremos de nuestra request. Usando el protocolo
 `Codable` y especificando cada `CodingKey` podremos indicar de que campos del
 JSON queremos obtener cada variable.
@@ -68,8 +67,7 @@ JSON queremos obtener cada variable.
 3\. Creamos una clase llamada `NetworkManager`, la cual tendra el siguiente
 contenido:
 
-{% gist 7b7219c0fef250cbfc36f0c88d237d27 %}
-
+<script src="https://gist.github.com/fedejordan/7b7219c0fef250cbfc36f0c88d237d27.js"></script>
 En este caso, definimos un metodo llamado `getTweetRequest(byId id: String,
 completion: (TweetRequest?) -> Void)` el cual hara el request correspondiente
 a nuestro entorno local `localhost` y, si ese `TweetRequest` para ese `id`
@@ -107,8 +105,7 @@ los request para los siguientes endpoints:
 Ordenando un poco los endpoints y los parametros necesarios, nuestra clase
 `NetworkManager` entonces podria quedar de la siguiente forma:
 
-{% gist bbad7be142eb20b12d8894dcaf50188a %}
-
+<script src="https://gist.github.com/fedejordan/bbad7be142eb20b12d8894dcaf50188a.js"></script>
 Algunos puntos a destacar:
 
   * Agregamos un enum llamado `NetworkPath`, mediante el cual obtenemos la URL completa para cada path que podamos utilizar. De esta forma tenemos en un solo lugar todas las url que usa el proyecto. Algo que se podria haber hecho es incluir y reemplazar el id (tanto de `TweetRequest` o de `PostedTweet`) pero decidi hacerlo basico por el momento
@@ -120,8 +117,7 @@ Algunos puntos a destacar:
 Si bien no lo requerimos, tambien podemos crear el struct de `PostedTweet`, el
 otro modelo que nos faltaba agregar:
 
-{% gist 7a31dc829bd8e1ce39aaafbe651b5c68 %}
-
+<script src="https://gist.github.com/fedejordan/7a31dc829bd8e1ce39aaafbe651b5c68.js"></script>
 Nos quedara como tarea realizar la debida implementacion de estos requests.
 Pueden ver el codigo final en <https://github.com/fedejordan/SimpleRTApp>, tag
 `basic_networking`.

@@ -59,8 +59,7 @@ Alamofire:
   1. We install Alamofire adding in our Podfile `pod 'Alamofire', '~> 4.7'`, , later we proceed to do `pod install` in terminal.
   2. We open the workspace file and create a file `TweetRequest.swift` with the following content:
 
-{% gist cdc4b5d4339252b523de285209109b91 %}
-
+<script src="https://gist.github.com/fedejordan/cdc4b5d4339252b523de285209109b91.js"></script>
 This will be the object that we'll obtain from our request. Using the
 `Codable` protocol and specifying each `CodingKey` we can set which JSON
 fields we want to obtaing for each variable.
@@ -68,8 +67,7 @@ fields we want to obtaing for each variable.
 3\. We create a class called `NetworkManager`, which will have the following
 content:
 
-{% gist 7b7219c0fef250cbfc36f0c88d237d27 %}
-
+<script src="https://gist.github.com/fedejordan/7b7219c0fef250cbfc36f0c88d237d27.js"></script>
 In this case, we define a method called `getTweetRequest(byId id: String,
 completion: (TweetRequest?) -> Void)` , which will do the corresponding
 request to our local environment `localhost` and, if that `TweetRequest` for
@@ -107,8 +105,7 @@ requests for the following endpoints:
 We sort out a little the endpoints and the needed parameters, our
 `NetworkManager` class can be something like that:
 
-{% gist bbad7be142eb20b12d8894dcaf50188a %}
-
+<script src="https://gist.github.com/fedejordan/bbad7be142eb20b12d8894dcaf50188a.js"></script>
 Some highlights:
 
   * We added a `NetworkPath` enum which we obtain the complete URL to each path that we can use. In that way, we have just one place where are all the URLs. Something that we could do is to include and replace the id (the one from `TweetRequest` or `PostedTweet`) but I decided to do it simple by now.
@@ -120,8 +117,7 @@ Some highlights:
 Although we do not require it, we can also create the `PostedTweet` struct,
 the another model that we use in our database:
 
-{% gist 7a31dc829bd8e1ce39aaafbe651b5c68 %}
-
+<script src="https://gist.github.com/fedejordan/7a31dc829bd8e1ce39aaafbe651b5c68.js"></script>
 It will be our task to carry out the proper implementation of these requests.
 You can see the final code in <https://github.com/fedejordan/SimpleRTApp>, tag
 `basic_networking`.

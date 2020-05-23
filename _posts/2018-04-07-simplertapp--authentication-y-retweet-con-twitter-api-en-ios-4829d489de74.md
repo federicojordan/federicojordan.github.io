@@ -195,8 +195,7 @@ la API de tweets.
 
 Creamos un `RetweetViewController` y agregamos el siguiente codigo:
 
-{% gist c1488c263561216e6763dd1c3b6021a0 %}
-
+<script src="https://gist.github.com/fedejordan/c1488c263561216e6763dd1c3b6021a0.js"></script>
 Maquetamos una pantalla simple (que presentamos cuando el login fue exitoso)
 de este estilo:
 
@@ -224,8 +223,7 @@ especificacion](https://developer.twitter.com/en/docs/tweets/post-and-engage
 Para ello tenemos que construir una Tweet Request de forma manual. Cambiamos
 el siguiente codigo de `RetweetViewController` para usar la API:
 
-{% gist bb403fc281b75926d8cb988515de9188 %}
-
+<script src="https://gist.github.com/fedejordan/bb403fc281b75926d8cb988515de9188.js"></script>
 Algo a destacar es que cambiamos la inicializacion de `TWRTAPIClient()` por
 `TWRTAPIClient.withCurrentUser()`, ya que necesitamos que el cliente sepa las
 credenciales del usuario.

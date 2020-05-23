@@ -99,8 +99,7 @@ toda la logica de ese flujo, tanto la obtencion de los items, como de la
 presentacion de los mismos. Ademas, se imprime un log cuando se selecciona un
 item.
 
-{% gist b8554027600bbf5f9a64dd623dae2344 %}
-![](/img/1*1Dq-bIVc5p8z3t_jLXb5Sw.png)
+<script src="https://gist.github.com/fedejordan/b8554027600bbf5f9a64dd623dae2344.js"></script>![](/img/1*1Dq-bIVc5p8z3t_jLXb5Sw.png)
 
 Pueden ver el codigo del proyecto en
 [https://github.com/fedejordan/SRPExample,](https://github.com/fedejordan/SRPExample)
@@ -132,9 +131,7 @@ es un `UITableView`.
 Para evitar ello, **refactorizamos** el `ItemsViewController` y movemos la
 logica de obtencion de datos a otra clase llamada `ItemsInteractor`.
 
-{% gist bc73b4a65d0e58e87017e563155737e8 %}
-{% gist 9834e4c93d44671ec757eeef29ec2127 %}
-
+<script src="https://gist.github.com/fedejordan/bc73b4a65d0e58e87017e563155737e8.js"></script><script src="https://gist.github.com/fedejordan/9834e4c93d44671ec757eeef29ec2127.js"></script>
  El término Interactor tiene su origen en la arquitectura
 [VIPER](https://www.objc.io/issues/13-architecture/viper/). Cómo lo dice
 en su definicion, un Interactor contiene la logica de negocio para manipular
@@ -157,8 +154,7 @@ Entonces, de esta forma, si queremos cambiar solo el layout de nuestra
 aplicacion, simplemente cambiamos `ItemsViewController` para que use un
 `UICollectionView`:
 
-{% gist 584acb600bc660a2cf220a79c4c7754d %}
-
+<script src="https://gist.github.com/fedejordan/584acb600bc660a2cf220a79c4c7754d.js"></script>
 ![](/img/1*NexoB1dLm11FnxD04W3l6Q.png)
 
 Screenshot de ItemsViewController usando un UICollectionView

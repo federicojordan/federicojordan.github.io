@@ -228,8 +228,7 @@ que son permitidas por las pushes (pueden ser mas de una).
 El codigo en la app iOS nos quedaria de la siguiente forma, para nuestro
 `AppDelegate.swift`:
 
-{% gist ac531f44360152bafb550aab0d885585 %}
-
+<script src="https://gist.github.com/fedejordan/ac531f44360152bafb550aab0d885585.js"></script>
 Hacemos `node send_push.js` en la terminal y comprobamos si se envia una push
 con una custom action:
 

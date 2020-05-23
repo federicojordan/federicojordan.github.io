@@ -195,8 +195,7 @@ los valores para nuestra app de Twitter.
 
 4\. Creamos un script de JavaScript `relevant_tweets.js` con el siguiente contenido:
 
-{% gist c35d91dcb99c84f2cc6f5b6fafc215ac %}
-
+<script src="https://gist.github.com/fedejordan/c35d91dcb99c84f2cc6f5b6fafc215ac.js"></script>
 
 En este script hacemos lo siguiente:
 
