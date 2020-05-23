@@ -5,6 +5,7 @@ title:	"SimpleRTApp: Authentication and retweet with Twitter API in iOS"
 date:	2018-04-20
 thumbnail:	/img/1*Altac86M18W11mMPafXodg.png
 author:	
+tags: twitter ios swift twitter-api simple-rt-app english
 ---
 
 * * *

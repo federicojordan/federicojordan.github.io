@@ -5,6 +5,7 @@ title:	"SimpleRTApp: Twitter Search API with Node.js"
 date:	2018-05-11
 thumbnail:	/img/1*LxEsarjDL_y7RWeZj5b1oA.png
 author:	
+tags: twitter-api nodejs authentication javascript english
 ---
 
 * * *

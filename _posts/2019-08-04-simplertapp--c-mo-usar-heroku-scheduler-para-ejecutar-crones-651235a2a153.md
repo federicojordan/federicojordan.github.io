@@ -5,6 +5,7 @@ title:	"SimpleRTApp: Cómo usar Heroku Scheduler para ejecutar crones"
 date:	2019-08-04
 thumbnail:	/img/1*WHsq_q7tA5nLYDTInm-k2Q.png
 author:	
+tags: nodejs javascript heroku heroku-scheduler simple-rt-app spanish
 ---
 
 * * *

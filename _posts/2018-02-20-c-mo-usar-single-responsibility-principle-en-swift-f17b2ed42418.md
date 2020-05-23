@@ -5,6 +5,7 @@ title:	"Cómo usar Single Responsibility Principle en Swift"
 date:	2018-02-20
 thumbnail:	/img/1*kSM1k05nq77ron-DjBX_FA.png
 author:	
+tags: solid ios swift single-responsability design-patterns spanish
 ---
 
 * * *

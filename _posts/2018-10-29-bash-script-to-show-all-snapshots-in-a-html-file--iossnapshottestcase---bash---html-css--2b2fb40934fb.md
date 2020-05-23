@@ -5,6 +5,7 @@ title:	"Bash script to show all snapshots in a HTML file (iOSSnapshotTestCase + 
 date:	2018-10-29
 thumbnail:	/img/1*sA-U55DRna_xhYzUUbiOlQ.png
 author:	
+tags: ui-testing snapshots bash script ios swift html english
 ---
 
 * * *

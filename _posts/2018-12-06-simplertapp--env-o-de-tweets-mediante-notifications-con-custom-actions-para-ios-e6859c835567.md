@@ -5,6 +5,7 @@ title:	"SimpleRTApp: Envío de tweets mediante notifications con custom actions 
 date:	2018-12-06
 thumbnail:	/img/1*Za5z0XGloxTdmGyG4VNs0w.png
 author:	
+tags: twitter push-notifications swift ios nodejs npm simple-rt-app custom-actions spanish
 ---
 
 * * *

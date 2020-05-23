@@ -5,6 +5,7 @@ title:	"Cómo hacer UI testing en iOS con FBSnapshotTestCase"
 date:	2018-02-16
 thumbnail:	/img/1*1Y6LwJByA-FLJs4ho7bFRw.jpeg
 author:	
+tags: ui-testing tests snapshots swift ios xcode spanish
 ---
 
 * * *

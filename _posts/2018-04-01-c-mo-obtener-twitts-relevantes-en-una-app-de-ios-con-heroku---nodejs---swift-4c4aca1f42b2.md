@@ -5,6 +5,7 @@ title:	"Cómo obtener twitts relevantes en una app de iOS con Heroku + NodeJS + 
 date:	2018-04-01
 thumbnail:	/img/1*AA7cWU-JqkG-OjEgMxgJJg.png
 author:	
+tags: simple-rt-app ios swift nodejs mysql heroku twitter spanish
 ---
 
 * * *

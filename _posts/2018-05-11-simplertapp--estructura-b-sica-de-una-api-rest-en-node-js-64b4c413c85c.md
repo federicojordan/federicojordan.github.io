@@ -5,6 +5,7 @@ title:	"SimpleRTApp: Estructura básica de una API REST en Node.js"
 date:	2018-05-11
 thumbnail:	/img/1*DIBoxvx-TEHamwuGcxr8Zg.png
 author:	
+tags: rest api nodejs get post npm simple-rt-app spanish
 ---
 
 * * *

@@ -5,6 +5,7 @@ title:	"SimpleRTApp: Deploy de una app en Node.js a Heroku"
 date:	2019-04-09
 thumbnail:	/img/1*cyxsl8nTk3YpzheR7uCpEA.png
 author:	
+tags: nodejs javascript heroku simple-rt-app spanish
 ---
 
 * * *

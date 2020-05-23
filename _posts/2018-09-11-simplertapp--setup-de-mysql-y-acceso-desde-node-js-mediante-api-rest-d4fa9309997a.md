@@ -5,6 +5,7 @@ title:	"SimpleRTApp: Setup de MySQL y acceso desde Node.js mediante API REST"
 date:	2018-09-11
 thumbnail:	/img/1*CJ9uaeA3hAXH1kMbTEQXfA.png
 author:	
+tags: sql mysql simple-rt-app nodejs javascript spanish
 ---
 
 * * *

@@ -5,6 +5,7 @@ title:	"SimpleRTApp: Consumo de API REST en iOS Swift con Alamofire+Codable"
 date:	2018-10-17
 thumbnail:	
 author:	
+tags: swift ios nodejs api rest simple-rt-app alamofire spanish
 ---
 
 * * *

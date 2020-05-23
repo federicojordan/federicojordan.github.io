@@ -5,6 +5,7 @@ title:	"SimpleRTApp: Uso de APN para enviar pushes a iOS desde NodeJS"
 date:	2018-11-03
 thumbnail:	/img/0*JPCUlkVRVTMUvSSv.png
 author:	
+tags: apn ios swift simple-rt-app nodejs npm push-notifications spanish
 ---
 
 * * *

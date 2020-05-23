@@ -5,6 +5,7 @@ title:	"How to obtain relevant tweets in a iOS app with Heroku + NodeJS + Swift"
 date:	2018-04-08
 thumbnail:	/img/1*AA7cWU-JqkG-OjEgMxgJJg.png
 author:	
+tags: simple-rt-app ios swift nodejs mysql heroku twitter english
 ---
 
 * * *
