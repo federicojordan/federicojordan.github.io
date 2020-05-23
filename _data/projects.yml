@@ -1,0 +1,54 @@
+- name: Apps
+  items:
+  - name: "Resumen: 48 Leyes del Poder"
+    link_ios: https://apps.apple.com/ve/app/resumen-48-leyes-del-poder/id1235394069
+
+  - name: "Gravity Pod: A space oddisey"
+    link_ios: https://apps.apple.com/ve/app/gravity-pod-a-space-oddisey/id1228007097
+
+  - name: "Paint the wall"
+    link_ios: https://apps.apple.com/ve/app/paint-the-wall/id1329897127
+
+  - name: "Canciones Argentinas - Karaoke"
+    link_ios: https://apps.apple.com/ve/app/canciones-argentinas-karaoke/id1239273426
+
+  - name: "Letters War - Sopa de letras"
+    link_ios: https://apps.apple.com/ve/app/letters-war-sopa-de-letras/id1299490277
+
+- name: Bots
+  items:
+  - name: "Clarin vs Pagina 12"
+    link: https://twitter.com/clarinvsp12/
+
+- name: Other projects - POC
+  items:
+  - name: Frecuency Viewer
+    link: https://github.com/fedejordan/FrequencyViewer
+
+  - name: LibGDX MVVM proposal
+    link: https://github.com/fedejordan/libgdx-mvvm-example
+
+  - name: FJButton3D
+    link: https://github.com/fedejordan/FJButton3D
+
+  - name: FJCalendarView
+    link: https://github.com/fedejordan/FJCalendarView
+
+  - name: Medium Posts tools
+    link: https://github.com/fedejordan/export-medium-posts-tool
+
+  - name: LibGDX Tetris
+    link: https://github.com/fedejordan/libgdx-tetris
+
+  - name: Jekyll Utils
+    link: https://github.com/fedejordan/jekyll-utils
+
+  - name: Website Passwords Generator
+    link: https://github.com/fedejordan/website-passwords-generator
+
+  - name: Russpack
+    link: https://github.com/fedejordan/russpack
+
+
+
+  
