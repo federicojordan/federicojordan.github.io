@@ -30,6 +30,11 @@ twitter_username: fedejordan90
 github_username: fedejordan
 linkedin_username: federico-jordan
 
+header_pages:
+  - projects/index.html
+  - tags/index.html
+  - subscribe/index.html
+  - about.markdown
 
 # Build settings
 theme: minima

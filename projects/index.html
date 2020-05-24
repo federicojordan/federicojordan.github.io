@@ -1,12 +1,14 @@
 ---
 layout: page
-<!-- title: Projects -->
+title: Projects
 permalink: /projects/
 ---
+
 {% for project in site.data.projects %}
 <h1>{{ project.name }}</h1>
     {% for item in project.items %}
-        <div>{{ item.name }}</div>
+        <div style="font-weight: 500;">{{ item.name }}</div>
+        <div style="font-weight: 200;">{{ item.description }}</div>
         <a href="{{ item.link }}">Link</a>
         <br></br>
     {% endfor %}

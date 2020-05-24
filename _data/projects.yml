@@ -1,55 +1,71 @@
 - name: Apps
   items:
-  - name: "Resumen: 48 Leyes del Poder"
+  - name: "Summary: 48 Laws of power"
+    description: "App based on 48 Laws of power book. A small summary. Android and iOS"
     link: https://apps.apple.com/ve/app/resumen-48-leyes-del-poder/id1235394069
 
   - name: "Gravity Pod: A space oddisey"
+    description: "Game for Android and iOS developed with LibGDX framework for Java. Uses Box2d for physics, and Admob for ads."
     link: https://apps.apple.com/ve/app/gravity-pod-a-space-oddisey/id1228007097
 
   - name: "Paint the wall"
+    description: "Other LibGDX game for both platforms."
     link: https://apps.apple.com/ve/app/paint-the-wall/id1329897127
 
   - name: "Canciones Argentinas - Karaoke"
+    description: "Karaoke app with argentinians songs. It based the data with MIDI files embebbed in app and a SQLite database with the lyrics"
     link: https://apps.apple.com/ve/app/canciones-argentinas-karaoke/id1239273426
 
   - name: "Letters War - Sopa de letras"
+    description: "Native letter soup game, with social integration. Currently not maintaned"
     link: https://apps.apple.com/ve/app/letters-war-sopa-de-letras/id1299490277
 
   - name: "Test Fractals"
+    description: "POC app which draw some nice figures based on trigonometric functions"
     link: https://play.google.com/store/apps/details?id=com.todoapps.testfractals
+
+  - name: LibGDX Tetris
+    description: "POC tetris game developed on LibGDX"
+    link: https://github.com/fedejordan/libgdx-tetris
 
 - name: Bots
   items:
   - name: "Clarin vs Pagina 12"
+    description: "Twitter bot. Post newspapers covers of two important journals of Argentina every day. Made with Python and Heroku"
     link: https://twitter.com/clarinvsp12/
 
 - name: Other projects - POC
   items:
-  - name: Frecuency Viewer
+  - name: Frequency Viewer
+    description: "Android component which uses phone microphone and reads frequency"
     link: https://github.com/fedejordan/FrequencyViewer
 
   - name: LibGDX MVVM proposal
+    description: "As game development does not have so much criteria on architectural decisions, I made my own proposal for LibGDX projects"
     link: https://github.com/fedejordan/libgdx-mvvm-example
 
   - name: FJButton3D
+    description: "Simple 3D button with toggle that I used for Letters War game"
     link: https://github.com/fedejordan/FJButton3D
 
   - name: FJCalendarView
+    description: "Calendar view that I used for one of my freelance jobs"
     link: https://github.com/fedejordan/FJCalendarView
 
   - name: Medium Posts tools
+    description: "Some tools in Node.js that I used to export to my previous blog"
     link: https://github.com/fedejordan/export-medium-posts-tool
 
-  - name: LibGDX Tetris
-    link: https://github.com/fedejordan/libgdx-tetris
-
   - name: Jekyll Utils
+    description: "Some Python scripts that I use to improve my blog maintenance"
     link: https://github.com/fedejordan/jekyll-utils
 
   - name: Website Passwords Generator
+    description: "A small tool in Python that I developed to pass a CTF challenge"
     link: https://github.com/fedejordan/website-passwords-generator
 
   - name: Russpack
+    description: "A HTML POC game. It's published in its GitHub page"
     link: https://github.com/fedejordan/russpack
 
 
