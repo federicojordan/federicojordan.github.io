@@ -34,7 +34,7 @@ header_pages:
   - projects/index.html
   - tags/index.html
   - subscribe/index.html
-  - about.markdown
+  - about/index.html
 
 # Build settings
 theme: minima
