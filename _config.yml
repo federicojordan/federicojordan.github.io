@@ -35,6 +35,7 @@ header_pages:
   - tags/index.html
   - subscribe/index.html
   - about/index.html
+  - contact/index.html
 
 # Build settings
 theme: minima
