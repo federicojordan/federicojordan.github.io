@@ -36,6 +36,14 @@
 
 - name: Other projects - POC
   items:
+  - name: Tweet Image Generator
+    description: "Python tool to generate a tweet image based on many parameters"
+    link: https://github.com/fedejordan/tweet-image-generator
+    
+  - name: Website Passwords Generator
+    description: "A small tool in Python that I developed to pass a CTF challenge"
+    link: https://github.com/fedejordan/website-passwords-generator
+    
   - name: Frequency Viewer
     description: "Android component which uses phone microphone and reads frequency"
     link: https://github.com/fedejordan/FrequencyViewer
@@ -60,14 +68,6 @@
     description: "Some Python scripts that I use to improve my blog maintenance"
     link: https://github.com/fedejordan/jekyll-utils
 
-  - name: Website Passwords Generator
-    description: "A small tool in Python that I developed to pass a CTF challenge"
-    link: https://github.com/fedejordan/website-passwords-generator
-
   - name: Russpack
     description: "A HTML POC game. It's published in its GitHub page"
     link: https://github.com/fedejordan/russpack
-
-
-
-  
