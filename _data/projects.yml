@@ -33,6 +33,10 @@
   - name: "Clarin vs Pagina 12"
     description: "Twitter bot. Post newspapers covers of two important journals of Argentina every day. Made with Python and Heroku"
     link: https://twitter.com/clarinvsp12/
+    
+  - name: "Tweets de politicos"
+    description: "Twitter bot. Gets a random tweet of a argentinian politician and its reply with the most number of likes, then the two tweets are generated as PNG files and posted on the account"
+    link: https://twitter.com/twpoliticosar/
 
 - name: Other projects - POC
   items:
