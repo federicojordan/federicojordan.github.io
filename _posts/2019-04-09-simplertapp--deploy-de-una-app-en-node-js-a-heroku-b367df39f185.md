@@ -248,9 +248,7 @@ la app deployada.
 
 ¡Gracias por leer el articulo!
 
-Mas informacion de como empezar con Heroku aca:
-<https://devcenter.heroku.com/articles/getting-started-with-
-nodejs#introduction>
+Mas informacion de como empezar con Heroku [acá](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
 
 #### Fuentes:
 

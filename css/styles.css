@@ -45,4 +45,7 @@
     padding: 20px;
     font-family: Arial;
 }
-  
+ 
+.about-medium {
+  font-style: italic;
+}
