@@ -240,5 +240,5 @@ hesitate to comment or send me an email to fedejordan99@gmail.com
 
 Thank you very much! :D
 
-*Este artículo tambien esta disponible para ver en [Medium](https://medium.com/@federicojordn/how-to-do-ui-testing-in-ios-with-fbsnapshottestcase-caea27e3d5f4)*
+*This article is also available on [Medium](https://medium.com/@federicojordn/how-to-do-ui-testing-in-ios-with-fbsnapshottestcase-caea27e3d5f4)*
 
