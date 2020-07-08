@@ -234,3 +234,4 @@ privado a [mi twitter](https://twitter.com/FedeJordan90).
 
 ¡Muchas gracias por leer el articulo!
 
+*Este artículo tambien esta disponible para ver en [Medium](https://medium.com/@federicojordn/simplertapp-twitter-search-api-con-node-js-499a124ff451)*

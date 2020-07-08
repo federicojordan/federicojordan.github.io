@@ -263,3 +263,4 @@ fedejordan99@gmail.com
   * <https://www.raywenderlich.com/156966/push-notifications-tutorial-getting-started>
   * <https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html>
 
+*Este artículo tambien esta disponible para ver en [Medium](https://medium.com/@federicojordn/simplertapp-uso-de-apn-para-enviar-pushes-a-ios-desde-nodejs-fa5dbe91bb4e)*

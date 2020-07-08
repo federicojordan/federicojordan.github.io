@@ -203,3 +203,5 @@ Thank you very much for reading the post!
 I hope you enjoyed it. You can send any message or suggestion about the topics
 in the comments section, or simply sending me a mail to fedejordan99@gmail.com
 
+*This article is also available on [Medium](https://medium.com/@federicojordn/how-to-apply-single-responsibility-principle-in-swift-20cfd04abbea)*
+

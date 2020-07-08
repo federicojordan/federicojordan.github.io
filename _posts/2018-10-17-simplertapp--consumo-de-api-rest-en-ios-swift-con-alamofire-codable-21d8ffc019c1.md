@@ -164,3 +164,4 @@ arquitectura de proyecto.
   * <https://github.com/Alamofire/Alamofire>
   * <https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md#making-a-request>
 
+*Este artículo tambien esta disponible para ver en [Medium](https://medium.com/@federicojordn/simplertapp-consumo-de-api-rest-en-ios-swift-con-alamofire-codable-21d8ffc019c1)*

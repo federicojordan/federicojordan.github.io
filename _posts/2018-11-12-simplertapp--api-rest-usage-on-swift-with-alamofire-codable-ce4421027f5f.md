@@ -163,3 +163,4 @@ Thank you so much for reading the article!
   * <https://github.com/Alamofire/Alamofire>
   * <https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md#making-a-request>
 
+*Este artículo tambien esta disponible para ver en [Medium](https://medium.com/@federicojordn/simplertapp-api-rest-usage-on-swift-with-alamofire-codable-ce4421027f5f)*

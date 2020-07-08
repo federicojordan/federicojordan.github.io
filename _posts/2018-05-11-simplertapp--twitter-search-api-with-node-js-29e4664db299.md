@@ -238,3 +238,4 @@ message to my [twitter](http://twitter.com/FedeJordan90).
 
 Thank you very much for reading!
 
+*This article is also available on [Medium](https://medium.com/@federicojordn/simplertapp-twitter-search-api-with-node-js-29e4664db299)*

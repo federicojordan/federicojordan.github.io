@@ -163,3 +163,4 @@ tiempo. Eso voy a abarcar en las siguientes notas.
 
 ¡Gracias por leer el articulo!
 
+*Este artículo tambien esta disponible para ver en [Medium](https://medium.com/@federicojordn/simplertapp-env%C3%ADo-de-tweets-mediante-notifications-con-custom-actions-para-ios-e6859c835567)*

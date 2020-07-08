@@ -239,7 +239,7 @@ Vimos un ejemplo de como refactorizar una vista desde un Storyboard a usar
 SnapKit, y como FBSnapshotTestCase nos permite corroborar que hicimos las
 cosas bien.
 
-Por ultimo, comparti un script que permite la creacion de screenshots en
+Por ultimo, compartí un script que permite la creacion de screenshots en
 tantos dispositivos se le indiquen. Útil cuando tenemos diseños que requieren
 especial cuidado en todas las pantallas.
 
@@ -248,3 +248,4 @@ comentarlo o mandarme un mail a fedejordan99@gmail.com
 
 ¡Muchas gracias! :D
 
+*Este artículo tambien esta disponible para ver en [Medium](https://medium.com/@federicojordn/c%C3%B3mo-hacer-ui-testing-en-ios-con-fbsnapshottestcase-12e9641df97)*

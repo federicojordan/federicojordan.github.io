@@ -301,3 +301,4 @@ Thanks for reading the article!
   * <https://www.w3schools.com/nodejs/nodejs_mysql_insert.asp>
   * <https://www.npmjs.com/package/node-env-file>
 
+*Este artículo tambien esta disponible para ver en [Medium](https://medium.com/@federicojordn/simplertapp-mysql-setup-and-node-js-access-through-a-rest-api-1db171d399a0)*

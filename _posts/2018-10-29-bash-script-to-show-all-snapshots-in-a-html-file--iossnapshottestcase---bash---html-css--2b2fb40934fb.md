@@ -205,3 +205,4 @@ Follow me on twitter to see more articles :D
   * <https://github.com/uber/ios-snapshot-test-case>
   * <https://ryanstutorials.net/bash-scripting-tutorial/bash-script.php>
 
+*This article is also available on [Medium](https://medium.com/@federicojordn/bash-script-to-show-all-snapshots-in-a-html-file-iossnapshottestcase-bash-html-css-2b2fb40934fb)*

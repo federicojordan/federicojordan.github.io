@@ -307,3 +307,4 @@ todas estas APIs.
   * <https://www.w3schools.com/nodejs/nodejs_mysql_insert.asp>
   * <https://www.npmjs.com/package/node-env-file>
 
+*Este artículo tambien esta disponible para ver en [Medium](https://medium.com/@federicojordn/simplertapp-setup-de-mysql-y-acceso-desde-node-js-mediante-api-rest-d4fa9309997a)*

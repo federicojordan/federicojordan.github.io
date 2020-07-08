@@ -85,3 +85,4 @@ Thank you very much!
 _Twitter_](http://www.twitter.com/FedeJordan90) _or send me an email to
 fedejordan99@gmail.com_
 
+*This article is also available on [Medium](https://medium.com/@federicojordn/how-to-obtain-relevant-tweets-in-a-ios-app-with-heroku-nodejs-swift-4c0027c88a4a)*

@@ -259,3 +259,4 @@ nodejs#introduction>
   * <https://devcenter.heroku.com/articles/how-heroku-works>
   * <https://es.wikipedia.org/wiki/Heroku>
 
+*Este artículo tambien esta disponible para ver en [Medium](https://medium.com/@federicojordn/simplertapp-deploy-de-una-app-en-node-js-a-heroku-b367df39f185)*

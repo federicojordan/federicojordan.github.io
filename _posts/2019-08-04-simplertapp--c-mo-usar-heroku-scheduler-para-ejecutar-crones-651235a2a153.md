@@ -82,3 +82,4 @@ base de datos y la configuracion del Cloud Service, en este caso Heroku.
 
   * <https://devcenter.heroku.com/articles/scheduler>
 
+*Este artículo tambien esta disponible para ver en [Medium](https://medium.com/@federicojordn/simplertapp-c%C3%B3mo-usar-heroku-scheduler-para-ejecutar-crones-651235a2a153)*

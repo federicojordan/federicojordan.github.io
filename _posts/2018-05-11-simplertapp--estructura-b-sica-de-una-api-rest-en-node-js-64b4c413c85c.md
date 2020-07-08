@@ -284,3 +284,4 @@ mail a fedejordan99@gmail.com
   * <http://expressjs.com/en/api.html>
   * <https://www.w3schools.com/jsref/jsref_tostring_number.asp>
 
+*Este artículo tambien esta disponible para ver en [Medium](https://medium.com/@federicojordn/simplertapp-estructura-b%C3%A1sica-de-una-api-rest-en-node-js-64b4c413c85c)*

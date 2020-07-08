@@ -263,3 +263,4 @@ message to [my twitter](https://twitter.com/FedeJordan90).
 
 Thanks for reading the article!
 
+*This article is also available on [Medium](https://medium.com/@federicojordn/simplertapp-authentication-and-retweet-with-twitter-api-in-ios-726d6aebf3fb)*

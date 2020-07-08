@@ -277,3 +277,4 @@ Thank you very much!
   * <http://expressjs.com/en/api.html>
   * <https://www.w3schools.com/jsref/jsref_tostring_number.asp>
 
+*This article is also available on [Medium](https://medium.com/@federicojordn/simplertapp-basic-structure-of-a-node-js-api-rest-a805a30a0466)*

@@ -87,3 +87,4 @@ de estos conceptos.
 _Twitter_](http://www.twitter.com/FedeJordan90) _o tambi en mandarme un mail a
 fedejordan99@gmail.com_
 
+*Este artículo tambien esta disponible para ver en [Medium](https://medium.com/@federicojordn/c%C3%B3mo-obtener-twitts-relevantes-en-una-app-de-ios-con-heroku-nodejs-swift-4c4aca1f42b2)*

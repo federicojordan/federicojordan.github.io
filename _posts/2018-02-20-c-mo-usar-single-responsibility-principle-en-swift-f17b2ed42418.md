@@ -211,3 +211,5 @@ Espero que les haya gustado. Cualquier agradecimiento o sugerencia de los
 temas que trate pueden hacerlo en los comentarios, o tambien comunicandose a
 mi mail: fedejordan99@gmail.com
 
+*Este artículo tambien esta disponible para ver en [Medium](https://medium.com/@federicojordn/c%C3%B3mo-usar-single-responsibility-principle-en-swift-f17b2ed42418)*
+

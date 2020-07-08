@@ -266,3 +266,4 @@ mensaje a mi [twitter](http://www.twitter.com/FedeJordan90).
 
 ¡Gracias por leer el articulo!
 
+*Este artículo tambien esta disponible para ver en [Medium](https://medium.com/@federicojordn/simplertapp-authentication-y-retweet-con-twitter-api-en-ios-4829d489de74)*
