@@ -1,5 +1,5 @@
 /* About */
-.about p {
+.no-post-page p {
     margin-top: 20px;
 }
 
@@ -46,6 +46,6 @@
     font-family: Arial;
 }
  
-.about-medium {
+.about-other {
   font-style: italic;
 }
