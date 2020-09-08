@@ -12,6 +12,10 @@
     description: "Other LibGDX game for both platforms."
     link: https://apps.apple.com/ve/app/paint-the-wall/id1329897127
 
+  - name: "Odd Box"
+    description: "LibGDX game on both mobile platforms"
+    link: https://apps.apple.com/gt/app/oddbox-move-the-boxes/id1530695753
+
   - name: "Canciones Argentinas - Karaoke"
     description: "Karaoke app with argentinians songs. It based the data with MIDI files embebbed in app and a SQLite database with the lyrics"
     link: https://apps.apple.com/ve/app/canciones-argentinas-karaoke/id1239273426
