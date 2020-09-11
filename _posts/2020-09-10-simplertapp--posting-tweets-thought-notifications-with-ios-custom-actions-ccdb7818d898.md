@@ -9,8 +9,6 @@ author:
 
 * * *
 
-_This article is also available on mi personal blog_
-
 This article is part of a series that aims to build a system to send
 notifications of relevant articles of Twitter, with the purpose of being
 easily retweeted. [Here](https://medium.com/@federicojordn/how-to-obtain-
@@ -169,3 +167,4 @@ between some time. It'll be related on the next posts.
 
 Thanks for reading!
 
+*This article is also available on [Medium](https://medium.com/@federicojordn/simplertapp-posting-tweets-thought-notifications-with-ios-custom-actions-ccdb7818d898)*
